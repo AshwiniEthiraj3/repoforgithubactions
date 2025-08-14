@@ -11,7 +11,7 @@ public class DemoforgithubactionsApplication {
 
 	@GetMapping("/welcome")
 	public String welcome(){
-		return "welcome to githubbbb";
+		return "welcome to githubbb";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoforgithubactionsApplication.class, args);
